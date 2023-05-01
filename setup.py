@@ -7,9 +7,8 @@ setup(
     author_email="Not Included",
     description="To do",
     install_requires=[
-        "os",
         "pyautogui",
         "win10toast"
     ],
-    packages=["main", "main.makeDirectories", "main.notify", "main.config]
+    packages=["main", "main.makeDirectories", "main.notify", "main.config"]
 )
