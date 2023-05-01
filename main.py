@@ -1,6 +1,6 @@
 from makeDirectories import fileSetup
-from notify import notify
-from config import wait_b_s, interval_b_c_m, interval_b_c_ma
+from notify.notify import notify
+from config.config import wait_b_s, interval_b_c_m, interval_b_c_ma
 
 def main():
     fileSetup()
@@ -10,4 +10,6 @@ def main():
         notify("There is no text in text.txt!")
         return
     #print(wait_b_s)
-main()
+
+if __name__ == "__main__":
+    main()
