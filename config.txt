@@ -1,0 +1,5 @@
+[Main Config]
+wait_before_start = 5
+interval_between_character_min = 0.1
+interval_between_character_max = 0.3
+use_default_config = false

@@ -5,6 +5,7 @@ def notify(text):
         "Chat-GPT Writer",
         text,
         duration = 20,
-        icon_path = "icon.ico",
+        icon_path = "Resources/chatgpt-icon.ico",
         threaded = True,
     )
+    return
