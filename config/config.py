@@ -1,9 +1,9 @@
 import configparser
-from makeDirectories import checkIfConfigFileIsCreated
+from makeDirectories.fileSetup import checkIfConfigFileIsCreated
 wait_b_s = 5
 interval_b_c_m = 0.1
 interval_b_c_ma = 0.3
-if checkIfConfigFileIsCreated == True:
+if checkIfConfigFileIsCreated() == True:
     config = configparser.ConfigParser()
     config.read_file(open(r'config.txt'))
     wait_b_s = config.get('Main Config', 'wait_before_start')

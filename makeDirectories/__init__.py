@@ -1,1 +1,1 @@
-__all__ = ['fileSetup']
+__all__ = ['fileSetup','checkIfConfigFileIsCreated']

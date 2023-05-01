@@ -1,4 +1,4 @@
-from makeDirectories import fileSetup
+from makeDirectories.fileSetup import fileSetup
 from notify.notify import notify
 from config.config import wait_b_s, interval_b_c_m, interval_b_c_ma
 
