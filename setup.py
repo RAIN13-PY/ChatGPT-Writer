@@ -11,5 +11,5 @@ setup(
         "pyautogui",
         "win10toast"
     ],
-    packages=["main", "main.makeDirectories", "main.notify"]
+    packages=["main", "main.makeDirectories", "main.notify", "main.config]
 )
